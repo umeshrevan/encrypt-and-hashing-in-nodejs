@@ -2,7 +2,8 @@ const http = require('http')
 const fs = require('fs');
 const getData = JSON.parse(fs.readFileSync('./encryptdata.json' , 'utf-8'));
 console.log(getData);
-
+console.log('hello'
+)
 const crypto = require('crypto');
 const algorithm = 'aes-256-cbc'; 
 const key = crypto.randomBytes(32);
